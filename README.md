@@ -5,7 +5,7 @@ This project investigates the effect of **NYC congestion pricing** on the demand
 
 The analysis explores how congestion pricing influences trip volume and patterns across different vehicle types, accounting for temporal and weather-related factors.
 
-> Note: This project was completed as part of the COMP30027 course at the University of Melbourne. The code and analysis have been adapted for portfolio presentation.
+> Note: This project was completed as part of the COMP30034 course at the University of Melbourne. The code and analysis have been adapted for portfolio presentation.
 
 ---
 
