@@ -1,28 +1,38 @@
-Impact of NYC Congestion Pricing on Yellow Taxi and HVFHV Demand
+# NYC Congestion Pricing Impact on Yellow Taxi and HVFHV Demand
 
-Project Overview
+## Project Overview
+This project investigates the effect of **NYC congestion pricing** on the demand for **Yellow Taxis** and **High-Volume For-Hire Vehicles (HVFHV)**. Using trip and weather data, it demonstrates data cleaning, feature engineering, and modeling techniques including **Ordinary Least Squares (OLS) Regression** and **Random Forest Regression**.
 
-This project analyzes the impact of NYC congestion pricing on Yellow Taxi and High-Volume For-Hire Vehicle (HVFHV) demand using trip data and weather data. It includes data processing, feature engineering, and modeling using OLS and Random Forest Regression.
+The analysis explores how congestion pricing influences trip volume and patterns across different vehicle types, accounting for temporal and weather-related factors.
 
-Data Sources
+> Note: This project was completed as part of the COMP30027 course at the University of Melbourne. The code and analysis have been adapted for portfolio presentation.
 
-1. NYC TLC Trip Records (Yellow Taxi & HVFHV)
+---
 
-Website: NYC TLC Trip Record Data: https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
+## Data Sources
 
-Instructions:
+### NYC TLC Trip Records
+- **Vehicle Types:** Yellow Taxi & HVFHV  
+- **Source:** [NYC TLC Trip Record Data](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)  
+- **Periods:** Jan–Jun 2024 and Jan–Jun 2025  
 
-Download the CSV files for Yellow Taxi and HVFHV trips.
+### Weather Data (Hourly)
+- **Source:** [NOAA GHCN Hourly](https://www.ncei.noaa.gov/access/search/data-search/global-historical-climatology-network-hourly)  
+- **Locations & Periods:**  
+  - 2024 Jan–Jun: Central Park station  
+  - 2025 Jan–Jun: JFK Airport station (data available until April 2025)  
 
-Relevant Periods: Jan–Jun 2024, Jan–Jun 2025
+---
 
-2. Weather Data (Hourly)
+## Key Steps
+1. **Data Cleaning & Processing:** Handle missing values, standardize formats, and merge datasets.  
+2. **Feature Engineering:** Create time-based, weather-based, and congestion pricing features.  
+3. **Modeling:**  
+   - **OLS Regression:** Examine linear relationships between congestion pricing and trip demand.  
+   - **Random Forest Regression:** Capture non-linear effects and interactions.  
+4. **Analysis & Visualization:** Generate plots and metrics to summarize trends and compare vehicle types.
 
-Website: NOAA Global Historical Climatology Network (GHCN): https://www.ncei.noaa.gov/access/search/data-search/global-historical-climatology-network-hourly
-
-Instructions:
-
-Select dataset: GHCN Hourly
+---
 
 Specify location:
 
