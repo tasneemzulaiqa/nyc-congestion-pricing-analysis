@@ -30,3 +30,5 @@ proj1_env/
 # Ignore IDE / editor files
 .history/
 *.DS_Store
+
+report
