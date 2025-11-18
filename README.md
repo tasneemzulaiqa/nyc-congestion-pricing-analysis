@@ -31,11 +31,3 @@ The analysis explores how congestion pricing influences trip volume and patterns
    - **OLS Regression:** Examine linear relationships between congestion pricing and trip demand.  
    - **Random Forest Regression:** Capture non-linear effects and interactions.  
 4. **Analysis & Visualization:** Generate plots and metrics to summarize trends and compare vehicle types.
-
----
-
-Specify location:
-
-2024 Jan–Jun: Central Park station
-
-2025 Jan–Jun: JFK Airport station (only available till April)
